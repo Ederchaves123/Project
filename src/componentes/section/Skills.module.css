@@ -1,0 +1,132 @@
+.Skills{
+    background-color:#01091C ;
+    opacity: 80%;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 80px;
+    padding-bottom: 30px;
+
+    padding-top: 20px;
+    width: 80%;
+}
+
+.Skills h1{
+  font-size: 66px;
+}
+
+.Skills p{
+    font-size: 30px;
+  }
+
+.Image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Image img {
+    height: 140px;
+    transition: 1s;
+}
+
+.java:hover {
+    box-shadow: 0 0 150px 10px yellow;
+    cursor: pointer;
+    height: 160px;
+    transition: 1s;
+}
+
+.description {
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Posiciona a descrição acima do texto */
+    left: 50%;
+    margin-left: -100px; /* Centraliza a descrição */
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.description::after {
+    content: "";
+    position: absolute;
+    top: 100%; /* Ponta da seta no fundo da descrição */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.java:hover .description {
+    visibility: visible;
+    opacity: 1;
+}
+
+.css:hover {
+    box-shadow: 0 0 150px 10px rgb(6, 134, 219);
+    cursor: pointer;
+    height: 160px;
+    transition: 1s;
+}
+.react:hover {
+    box-shadow: 0 0 150px 10px rgb(3, 138, 255);
+    cursor: pointer;
+    height: 160px;
+    transition: 1s;
+}
+.html:hover {
+    box-shadow: 0 0 150px 10px rgb(255, 72, 0);
+    cursor: pointer;
+    height: 160px;
+    transition: 1s;
+}
+.typescript:hover {
+    box-shadow: 0 0 150px 10px rgb(40, 98, 255);
+    cursor: pointer;
+    height: 160px;
+    transition: 1s;
+}
+
+@media screen and (min-width:600px) and (max-width:1080px) {
+    .Skills{
+        width: 98%;
+    }
+
+    .Skills p{
+        font-size: 25px;
+    }
+
+    .Image img{
+        width: 15%;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+
+    .Skills{
+        width: 90%;
+        padding-right: 30px;
+    }
+
+    .Skills h1{
+        font-size: 50px;
+    }
+
+    .Skills p{
+        font-size: 20px;
+    }
+
+    .Image img{
+        width: 15%;
+    }
+    
+
+}

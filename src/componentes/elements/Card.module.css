@@ -1,0 +1,135 @@
+.Card{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.Card img {
+    padding-right: 40px;
+    width: 500px;
+    transition: 1s;
+    border-radius: 20px;
+}
+
+.Card img:hover {
+    width: 600px;
+    transform: rotateY('-7px');
+    transition: 1s;
+    cursor: pointer;
+}
+
+.Card div{
+    background-color:#01091C ;
+    padding: 40px;
+    opacity: 90%;
+    border-radius: 20px;
+    width: 500px;
+    transition: 1s;
+    
+}
+
+.Card div:hover{
+    width: 600px;
+    transform: rotateY('-7px');
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.Card h3 {
+    
+    font-size: 30px;
+    transition: 1s;
+}
+
+
+.Card p {
+    font-size: 20px;
+}
+
+@media screen and (min-width:600px) and (max-width:1080px) {
+    .Card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 600px;
+        margin: 0px;
+    }
+    
+    .Card img {
+        width: 500px;
+        transition: 1s;
+        border-radius: 20px;
+    }
+    
+    .Card img:hover {
+        width: 600px
+        
+    }
+    
+    .Card div{
+        padding: 0px;
+        width: 500px;
+        transition: 1s;
+        
+    }
+    
+    .Card div:hover{
+        width: 600px;
+        transform: rotateY('-7px');
+        transition: 1s;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    
+    
+}
+
+@media screen and (max-width:600px) {
+    .Card{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 0px;
+        margin-left: -50px;
+    }
+    
+    .Card img {
+        width: 300px;
+        transition: 1s;
+        border-radius: 20px;
+    }
+    
+    .Card img:hover {
+        width: 350px;
+        
+    }
+    
+    .Card div{
+        padding: 20px;
+        width: 300px;
+        transition: 1s;
+        
+    }
+    
+    .Card div:hover{
+        width: 350px;
+        transform: rotateY('-7px');
+        transition: 1s;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+
+    .Card h3 {
+    
+        font-size: 25px;
+        transition: 1s;
+    }
+    
+    
+    .Card p {
+        font-size: 15px;
+    }
+    
+    
+}

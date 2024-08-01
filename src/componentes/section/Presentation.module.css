@@ -1,0 +1,53 @@
+.Presentation{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding-left: 90px;
+}
+
+.Presentation h2{
+    font-size: 28px;
+}
+
+.Presentation h1{
+    font-size: 50px;
+}
+
+.Presentation p{
+    font-size: 25px;
+}
+
+@media screen and (min-width:600px) and (max-width:1080px) {
+    .Presentation p {
+        font-size: 20px;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .Presentation{
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+    .Presentation h2{
+        font-size: 20px;
+    }
+    
+    .Presentation h1{
+        font-size: 40px;
+    }
+
+    .Presentation p {
+        font-size: 12px;
+        padding:20px;
+        padding-left: 0px;
+        text-align: center;
+
+    }
+
+    .btn{
+        padding-right: 30px;
+    }
+
+}

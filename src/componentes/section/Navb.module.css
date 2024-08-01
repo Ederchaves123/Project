@@ -1,0 +1,36 @@
+.Navb{
+      display: flex;
+      justify-content: space-between;
+      padding: 2em;
+}
+.Navb ul{
+    display: flex;
+    gap: 20px;
+
+}
+
+.Navb li{
+    text-decoration: underline;
+    list-style: none;
+}
+
+.Navb a:visited {
+    color: inherit
+}
+
+@media screen and (min-width:600px) and (max-width:1080px) {
+    
+}
+
+@media screen and (max-width:600px) {
+    .Navb {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 100px;
+    }
+
+
+
+    
+}

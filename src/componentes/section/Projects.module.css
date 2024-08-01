@@ -1,0 +1,28 @@
+.Projects{
+    text-align: justify;
+    margin-left: 50px;
+
+}
+
+.Projects h1{
+    font-size: 66px;
+}
+
+.btn{
+    width: 50%;
+   margin: auto;
+}
+
+@media screen and (min-width:600px) and (max-width:1080px) {
+    display: block;
+}
+
+@media screen and (max-width:600px) {
+
+
+    .Projects h1{
+        font-size: 50px;
+    }
+    
+
+}
