@@ -11,7 +11,7 @@ function Projects() {
             <h1>PROJECTS</h1>
             <Card
                 img={sitednc}
-                title='DNC landing-page Project '
+                title='DNC Project '
                 prhase='HTML, CSS, JS'
                 description='This was my first training project, which involved creating a technology-related website.'
                 repo='https://github.com/Ederchaves123/PROJETOSITEDNC'
