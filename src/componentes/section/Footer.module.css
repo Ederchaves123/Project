@@ -16,6 +16,14 @@
     color: aliceblue;
 }
 
+.Footer li:hover{
+    color: rgb(164, 67, 255);
+    font-weight: 500;
+    cursor: pointer;
+    transform: translateY(-7px);
+    transition-duration: 1s;
+}
+
 .Footer p {
     font-size: 20px;
     height: 600;

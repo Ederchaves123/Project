@@ -10,8 +10,19 @@
 }
 
 .Navb li{
-    text-decoration: underline;
     list-style: none;
+}
+
+.Navb li:hover{
+    color: rgb(164, 67, 255);
+    font-weight: 500;
+    cursor: pointer;
+    transform: translateY(-7px);
+    transition-duration: 1s;
+}
+
+.Navb a {
+    text-decoration: none;
 }
 
 .Navb a:visited {

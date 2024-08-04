@@ -1,9 +1,9 @@
 .Button { 
     background-color: #01091C;
     opacity: 80%;
-    border: #0800ff solid 1px;
+    border: #004cff solid 1px;
     border-radius: 15px;
-    color: #0800ff ;
+    color: #064ffa ;
     font-size: 15px;
     font-weight: 800;
     height: 60px;
@@ -11,9 +11,10 @@
 }
 
 .Button:hover {
+    font-size: 20px;
     cursor: pointer;
-    background-color: #0800ff;
-    color: #01091C;
+    background-color: #004cff;
+    color: #000000;
     border: none;
     transform: translateY(-7px);
     transition-duration: 1s;
@@ -22,8 +23,12 @@
 
 @media screen and (min-width:600px) and (max-width:1080px) {
     .Button { 
-        font-size: 20px;
         width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .Button:hover {
+        width: 95%;
     }
     
 }

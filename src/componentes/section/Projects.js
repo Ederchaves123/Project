@@ -8,12 +8,12 @@ import Weather from '../section/image/Weather.jpg'
 function Projects() {
     return (
         <div id='Projects' className={styles.Projects}>
-            <h1>PROJETOS</h1>
+            <h1>PROJECTS</h1>
             <Card
                 img={sitednc}
-                title='Projeto XPTO '
+                title='DNC landing-page Project '
                 prhase='HTML, CSS, JS'
-                description='Projeto Front-End para realizar pipipi e popo.'
+                description='This was my first training project, which involved creating a technology-related website.'
                 repo='https://github.com/Ederchaves123/PROJETOSITEDNC'
                 link='https://ederchavesdnc.netlify.app/'
 
@@ -21,9 +21,9 @@ function Projects() {
             <br /><br /><br /><br />
 
             <Card img={site}
-                title='Projeto XPTO '
+                title='CCXP Project'
                 prhase='HTML, CSS, JS'
-                description='Projeto Front-End para realizar pipipi e popo.'
+                description='This was my second training project, focused on a major tech event in Brazil.'
                 repo='https://github.com/Ederchaves123/Weather'
                 link='https://ccxpeder.netlify.app/'
             />
@@ -33,11 +33,11 @@ function Projects() {
             <Card img={Weather}
                 title='Weather API Project '
                 prhase='HTML, CSS, JS'
-                description='Projeto Front-End para realizar pipipi e popo.'
+                description='This was my third training project, focused on a weather API.'
                 repo='https://github.com/Ederchaves123/Weather'
                 link='https://dncweathereder.netlify.app/'
             />
-            <div className={styles.btn}><Button2 text='Ver repositório Completo' link='https://github.com/Ederchaves123?tab=repositories' />
+            <div className={styles.btn}><Button2 text='View my GitHub' link='https://github.com/Ederchaves123?tab=repositories' />
             </div>
         </div>
     )

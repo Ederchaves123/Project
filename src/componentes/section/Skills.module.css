@@ -36,38 +36,6 @@
     transition: 1s;
 }
 
-.description {
-    visibility: hidden;
-    width: 200px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%; /* Posiciona a descrição acima do texto */
-    left: 50%;
-    margin-left: -100px; /* Centraliza a descrição */
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-.description::after {
-    content: "";
-    position: absolute;
-    top: 100%; /* Ponta da seta no fundo da descrição */
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: black transparent transparent transparent;
-}
-
-.java:hover .description {
-    visibility: visible;
-    opacity: 1;
-}
 
 .css:hover {
     box-shadow: 0 0 150px 10px rgb(6, 134, 219);

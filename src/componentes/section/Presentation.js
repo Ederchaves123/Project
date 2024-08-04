@@ -1,28 +1,30 @@
-import styles from './Presentation.module.css'
-import Button from '../elements/Button'
+import styles from './Presentation.module.css';
+import Button from '../elements/Button';
 
 function Presentation() {
+
     return (
         <div id='Presentation' className={styles.Presentation}>
-            <h2>Bem-vindo ao meu Portfólio</h2>
-            <h1>Olá, eu sou Eder</h1>
+            <h2>Welcome to my Portfolio</h2>
+            <h1>Hey, My name is Éder!</h1>
             <p>
-                Sou um apaixonado por tecnologia e soluções inovadoras.
+                I am passionate about technology and innovative solutions.
                 <br />
-                Como Product Manager, eu tenho o compromisso de resolver
+                I began studying full stack development and am currently building 
                 <br />
-                problemas complexos e trazer resultados excepcionais para os
+                a strong foundation in both front-end and back-end technologies.
                 <br />
-                negócios. Meus projetos já geraram milhões de reais em receita
+                I have gained skills in HTML, CSS, JavaScript, and am learning 
                 <br />
-                anual e estou sempre em busca de novos desafios para superar.
+                frameworks such as React and Node.js.
+                <br />
+                I am also familiar with version control using Git.
             </p>
             <div className={styles.btn}>
-                <Button text='Conecte-se comigo!! '/>
+                <a target="_blank" rel="noopener noreferrer" href='https://bit.ly/3STJ0xe?fbclid=PAZXh0bgNhZW0CMTEAAaabCF9JVBh7Co98F8GuvH6sA11i4BLjzq_kXwFr7B4c-Q74UecC-qR_7ZQ_aem_kGX5Dd_7BxBhfOkJlB96jg.'><Button  text='Connect with me!'/></a>
             </div>
-
         </div>
-    )
+    );
 }
 
-export default Presentation
+export default Presentation;

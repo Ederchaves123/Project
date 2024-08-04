@@ -19,7 +19,7 @@
 }
 
 .Card div{
-    background-color:#01091C ;
+    background-color:#01123b ;
     padding: 40px;
     opacity: 90%;
     border-radius: 20px;
@@ -68,6 +68,8 @@
     }
     
     .Card div{
+        text-align: center;
+        margin-bottom: 10px;
         padding: 0px;
         width: 500px;
         transition: 1s;
