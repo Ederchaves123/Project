@@ -91,9 +91,9 @@
     .Card{
         display: flex;
         flex-direction: column;
-        align-items: start;
+        align-items: center;
         width: 0px;
-        margin-left: -50px;
+        margin-left: 200px;
     }
     
     .Card img {
